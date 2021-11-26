@@ -1,13 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './components/navbar/Navbar.css';
+import { Route, Routes } from 'react-router-dom';
+import Navi from './components/navbar/Navbar.js'
 
 function App() {
   return (
     <div className="App">
+      <Navi />
+      <Routes>
+        <Route exact path='/'/>
+      </Routes>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to <code id='tt'>Stemby</code><br/>
+          <p id='secondary'>The best discord homework bot.</p>
         </p>
         <a
           className="App-link"
