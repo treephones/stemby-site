@@ -38,8 +38,9 @@
 }
 
 #tt {
-  font-size: 38px;
-  color: green;
+  font-size: 30px;
+  font-family: verdana;
+  color: grey;
 }
 
 #secondary {

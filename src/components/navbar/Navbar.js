@@ -6,9 +6,17 @@ class Navi extends React.Component {
     render() {
         return (
             <Container>
-                <Navbar variant='dark' expand="sm" sticky='top'>
+                <Navbar variant='dark' expand="sm" className='justify-content-center'>
                     <Container>
-                        <Navbar.Brand href="/">Stemby</Navbar.Brand>
+                        <Navbar.Brand href="/">
+                            <img
+                                alt=""
+                                src={this.props.logo}
+                                width="100"
+                                height="70"
+                                className="d-inline-block align-top"
+                            />{' '}
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
@@ -23,8 +31,8 @@ class Navi extends React.Component {
                                 <NavDropdown.Item href="/commands#english">Code</NavDropdown.Item>
                                 <NavDropdown.Item href="/commands#fun">Fun</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/invite">Invite</Nav.Link>
                             <Nav.Link href="/faq">FAQ</Nav.Link>
+                            <Nav.Link href="/invite">Invite</Nav.Link>
                             <Nav.Link href="/support">Support</Nav.Link>
                         </Nav>
                         </Navbar.Collapse>
