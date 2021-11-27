@@ -5,7 +5,7 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 class Navi extends React.Component {
     render() {
         return (
-            <Navbar variant='dark' expand="lg" className='justify-content-center'>
+            <Navbar variant='dark' expand="lg">
                 <Container>
                     <Navbar.Brand href="/">
                         <img

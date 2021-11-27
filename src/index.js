@@ -16,14 +16,13 @@ import Support from './components/pages/Support.js';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-        <Route exact path='/' element={<App />}/>
-        <Route exact path='/home' element={<App />}/>
-        <Route exact path='/commands' element={<Commands />}/>
-        <Route exact path='/faq' element={<Faq />}/>
-        <Route exact path='/support' element={<Support />}/>
-      </Routes>
-      <App />
+      <Routes>
+          <Route exact path='/' element={<App />}/>
+          <Route exact path='/home' element={<App />}/>
+          <Route exact path='/commands' element={<Commands />}/>
+          <Route exact path='/faq' element={<Faq />}/>
+          <Route exact path='/support' element={<Support />}/>
+        </Routes>
     </ BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

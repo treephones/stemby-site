@@ -1,0 +1,27 @@
+[
+    {
+        "qid": 0,
+        "question": "What is Stemby?",
+        "answer": "Stemby is a homework helper bot with A LOT of unique and interesting functions to help you get your work done. Did I meantion it can turn your pictures into memes using facial detection?"
+    },
+    {
+        "qid": 1,
+        "question": "How does Stemby work?",
+        "answer": "Stemby is VERY simple to use. Just invite to your server, run a command, and recieve a reply! No setup required."
+    },
+    {
+        "qid": 2,
+        "question": "Is Stemby safe?",
+        "answer": "Yep! Stemby works on a pure answer-reply basis. It doesn't require any admin permissions whatsoever to join your server."
+    },
+    {
+        "qid": 3,
+        "question": "Who made Stemby?",
+        "answer": "Just a bored conifer dwelling telephone...."
+    },
+    {
+        "qid": 4,
+        "question": "Is it free?",
+        "answer": "YEP!"
+    }
+]
