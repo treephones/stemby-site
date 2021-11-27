@@ -38,11 +38,15 @@
 }
 
 #tt {
-  font-size: 30px;
+  font-size: 150px;
   font-family: verdana;
-  color: grey;
+  color: #44a6c6;
 }
 
 #secondary {
   font-size: 23px;
+}
+
+#inv-btn {
+  background-color: #44a6c6;
 }
