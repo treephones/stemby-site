@@ -13,7 +13,3 @@
 .accordion-item {
     background-color: rgb(175, 217, 241);
 }
-
-#panels1 a:focus {
-    background-color:red;
-}
