@@ -46,7 +46,7 @@ export const options = {
         color: "#44a6c6",
         distance: 150,
         enable: true,
-        opacity: 0.2,
+        opacity: 0.4,
         width: 1,
       },
       collisions: {
