@@ -3,3 +3,17 @@
     text-align: left;
     font-size: 15pt;
 }
+
+/* accordion colors */
+.accordion-button {
+    background-color: white !important;
+    color: black;
+}
+
+.accordion-item {
+    background-color: rgb(175, 217, 241);
+}
+
+#panels1 a:focus {
+    background-color:red;
+}

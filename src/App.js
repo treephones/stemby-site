@@ -17,7 +17,7 @@ function App() {
         <p id='secondary'>The best discord homework bot.</p>
         <Container>
           <Button className='hp-btns' id='inv-btn' href='invlink' rel="noopener noreferrer" variant="primary" size='lg'>Invite To Server</Button>{' '}
-          <Button className='hp-btns' href='invlink' rel="noopener noreferrer" variant="secondary" size='lg'>Commands</Button>{' '}
+          <Button className='hp-btns' href='/commands' rel="noopener noreferrer" variant="secondary" size='lg'>Commands</Button>{' '}
         </Container>
       </header>
       <Particles  init={particlesInit} loaded={particlesLoaded} options={options} />
