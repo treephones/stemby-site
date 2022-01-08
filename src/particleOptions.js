@@ -9,13 +9,9 @@ export const options = {
       color: {
       },
     },
-    fpsLimit: 60,
+    fpsLimit: 40,
     interactivity: {
       events: {
-        onClick: {
-          enable: true,
-          mode: "push",
-        },
         onHover: {
           enable: true,
           mode: "repulse",
@@ -43,7 +39,7 @@ export const options = {
         value: "#ffffff",
       },
       links: {
-        color: "#44a6c6",
+        color: "#15bbb4",
         distance: 150,
         enable: true,
         opacity: 0.4,
@@ -65,7 +61,7 @@ export const options = {
           enable: true,
           value_area: 900,
         },
-        value: 80,
+        value: 40,
       },
       opacity: {
         value: 0.1,

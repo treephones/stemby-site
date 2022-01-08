@@ -1,1 +1,149 @@
-[]
+[
+    {
+        "General": [
+            {
+                "command": "define - definition of a word",
+                "usage": ",,define {word}",
+                "description": "Returns the dictionary definition of a word.",
+                "example": ",,define robot",
+                "aliases": "def, d"
+            },
+            {
+                "command": "random - random number",
+                "usage": ",,random {min} {max}",
+                "description": "Chooses a random number within the provided range. Default range is 0-100.",
+                "example": ",,random 5 10",
+                "aliases": "rand, randomnumber"
+            },
+            {
+                "command": "choose - random choice from list",
+                "usage": ",,choose {list of choices}",
+                "description": "Will choose a random word from the provided words.",
+                "example": ",,choose apple banana car dog cat horse cake",
+                "aliases": "choice, randomchoice"
+            }
+        ]
+    },
+    {
+        "Code": [
+            {
+                "command": "code - run code from several different languages",
+                "usage": ",,{language} {code}",
+                "description": "Language name is the command, followed by the code. The code CAN be encased in ``` markings for formatting.",
+                "example": ",,python print('I am Stemby. Give me ice cream.')",
+                "aliases": "Languages Supported: Python, Java, C, C++, C#, Javascript, Swift, Ruby"
+            }
+        ]
+    },
+    {
+        "Math": [
+            {
+                "command": "add - add numbers or vectors",
+                "usage": ",,add {v1} , {v2}",
+                "description": "Add two numbers or vectors. If numbers, replace v1 and v2 with each number. If vectors, replace v1 and v2 with each vector, each vector dimension sepereated by a space. Supports up to 3 dimensions.",
+                "example": "Numbers: ,,add 2 , 5   Vectors: ,,add 1 1 1 , 2 2 2",
+                "aliases":"vadd, vsum, sum, addition"
+            },
+            {
+                "command": "subtract - subtract numbers or vectors",
+                "usage": ",,subtract {v1} , {v2}",
+                "description": "Subtract two numbers or vectors. If numbers, replace v1 and v2 with each number. If vectors, replace v1 and v2 with each vector, each vector dimension sepereated by a comma. Supports up to 3 dimensions.",
+                "example": "Numbers: ,,subtract 2 , 5   Vectors: ,,subtract 1 1 1 , 2 2 2",
+                "aliases":"vsubtract, vsub, difference, vdifference, vdiff, diff"
+            },
+            {
+                "command": "multiply - multiply numbers or vectors",
+                "usage": ",,multiply {v1} , {v2}",
+                "description": "Multiply two numbers or vectors. If numbers, replace v1 and v2 with each number. If vectors, replace v1 and v2 with each vector, each vector dimension sepereated by a comma. Supports up to 3 dimensions.",
+                "example": "Numbers: ,,multiply 2 , 5   Vectors: ,,multiply 1 1 1 , 2 2 2",
+                "aliases":"vproduct, vmultiply, vectorproduct"
+            },
+            {
+                "command": "evalute - solve an equation",
+                "usage": ",,evaluate {equation}",
+                "description": "Solves an equation of givens. Use * when multiplying and ^ for exponents. sqrt() = square root, sin(), cos(), tan() = sin, cos, tan.",
+                "example": ",,evaluate (2*sin(10)^2)*10+4",
+                "aliases": "eval"
+            },
+            {
+                "command": "solve - solve for x",
+                "usage": ",,solve {expression}",
+                "description": "Takes an expression with any number of unknown variables and solves ONLY for x. Provided expression must contain an x.",
+                "example": ",,solve y=3x+6+z+f/r or ,,solve 2=x/3",
+                "aliases":"x, findx, isolate"
+            },
+            {
+                "command": "graph - graphs expression",
+                "usage": ",,graph {expression}",
+                "description": "Graphs the given expression on a domain and range of 100.",
+                "example": ",,graph y=2x^2",
+                "aliases":"plot"
+            },
+            {
+                "command": "convert - convert units",
+                "usage": ",,convert {value} {unit1} {unit2}",
+                "description": "Converts provided {value} from {unit1} to {unit2}. For tempurature, use degc for celcius and degf for fahrenheit.",
+                "example": ",,convert 12 cm m",
+                "aliases":"conv"
+            },
+            {
+                "command": "dot - dot product of vectors",
+                "usage": ",,dot {v1} , {v2}",
+                "description": "Dot product of two vectors. Replace v1 and v2 with each vector, each vector dimension sepereated by a comma. Supports up to 3 dimensions.",
+                "example": ",,dot 1 1 1 , 2 2 2",
+                "aliases": "dotproduct"
+            },
+            {
+                "command": "orthogonal - checks if vectors are orthogonal",
+                "usage": ",,orthogonal {v1} , {v2}",
+                "description": "Checks if two vectors are orthogonal. Replace v1 and v2 with each vector, each vector dimension sepereated by a comma. Supports up to 3 dimensions.",
+                "example": ",,orthogonal 1 1 1 , 2 2 2",
+                "aliases": "ortho"
+            }
+        ]
+    },
+    {
+        "Chemistry": [
+            {
+                "command": "properties - properties of chemical elements",
+                "usage": ",,properties {element} [property]",
+                "description": "Gives property of element on the periodic table. Element can be spelled or symbol can be given. Property is optional, if none is provided, all chemical properties will be returned.",
+                "example": ",,properties h atomic mass",
+                "aliases": "property, prop"
+            },
+            {
+                "command": "mass - mass of molecules",
+                "usage": ",,mass {molecule}",
+                "description": "Gives the mass of a provided molecule in g/mol",
+                "example": ",,mass CO2",
+                "aliases": "molmass"
+            },
+            {
+                "command": "balance - balance chemical equation",
+                "usage": ",,balance {reactants} -> {product}",
+                "description": "Balances a chemical reaction. Place an arrow, similar to the one above, or use an = to seperate the reactants and products. If there is more than one reactant or product, use a +. ",
+                "example": ",,balance H2O2 -> H2O + O2",
+                "aliases": ""
+            },
+            {
+                "command": "periodic - image of the periodic table",
+                "usage": ",,periodic",
+                "description": "Sends an image of the periodic table.",
+                "example": ",,periodic",
+                "aliases": "pt, periodictable"
+            }
+        ]
+    },
+    {
+        "Biology": [
+            {
+                "command": "punnett - makes punnett square (genetics)",
+                "usage": ",,punnett {g1} {g2}",
+                "description": "Create a punnett square with the 2 provided genotypes. Takes genotypes of length 2 or 4.",
+                "example": ",,punnett aaBB Aabb",
+                "aliases": "ps, punnettsquare"
+            }
+        ]
+    }
+
+]

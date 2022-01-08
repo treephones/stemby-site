@@ -20,21 +20,12 @@ class Navi extends React.Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <NavDropdown title="Commands" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/commands">All Commands</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="/commands#math">Math</NavDropdown.Item>
-                            <NavDropdown.Item href="/commands#chemistry">Chemistry</NavDropdown.Item>
-                            <NavDropdown.Item href="/commands#biology">Biology</NavDropdown.Item>
-                            <NavDropdown.Item href="/commands#code">Code</NavDropdown.Item>
-                            <NavDropdown.Item href="/commands#english">English</NavDropdown.Item>
-                            <NavDropdown.Item href="/commands#fun">Fun</NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link href='/commands'>Commands</Nav.Link>
                         <Nav.Link href="/faq">FAQ</Nav.Link>
                         <Nav.Link href="/support">Support</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="/invite">Invite</Nav.Link>
+                        <Nav.Link href="https://discord.com/api/oauth2/authorize?client_id=840700895251005481&permissions=51264&scope=bot" target='_blank'>Invite</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
