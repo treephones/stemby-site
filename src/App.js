@@ -7,6 +7,9 @@ import Navi from './components/navbar/Navbar.js'
 import { Button, Container } from 'react-bootstrap';
 import Particles from 'react-tsparticles';
 import { options, particlesInit, particlesLoaded } from './particleOptions.js';
+import Commands from './components/pages/Commands.js';
+import Faq from './components/pages/faq.js';
+import Support from './components/pages/Support.js';
 
 function App() {
   return (
@@ -17,11 +20,14 @@ function App() {
         <p id='secondary'>The best discord homework bot.</p>
         <Container>
           <Button className='hp-btns' id='inv-btn' href='https://discord.com/api/oauth2/authorize?client_id=840700895251005481&permissions=51264&scope=bot' target='_blank' rel="noopener noreferrer" variant="primary" size='lg'>Invite To Server</Button>{' '}
-          <Button className='hp-btns' href='/commands' rel="noopener noreferrer" variant="secondary" size='lg'>Commands</Button>{' '}
+          <Button className='hp-btns' href='#commands' rel="noopener noreferrer" variant="secondary" size='lg'>Commands</Button>{' '}
         </Container>
       </header>
+      <Commands />
+      <Faq />
+      <Support />
       <Particles  init={particlesInit} loaded={particlesLoaded} options={options} />
-    </div>
+    </div>  
   );
 }
 

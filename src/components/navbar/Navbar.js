@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 
 class Navi extends React.Component {
@@ -20,9 +20,9 @@ class Navi extends React.Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href='/commands'>Commands</Nav.Link>
-                        <Nav.Link href="/faq">FAQ</Nav.Link>
-                        <Nav.Link href="/support">Support</Nav.Link>
+                        <Nav.Link href='#commands'>Commands</Nav.Link>
+                        <Nav.Link href="#faq">FAQ</Nav.Link>
+                        <Nav.Link href="#support">Support</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="https://discord.com/api/oauth2/authorize?client_id=840700895251005481&permissions=51264&scope=bot" target='_blank'>Invite</Nav.Link>
