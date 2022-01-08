@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d07c4ece.chunk.css",
+    "main.js": "/static/js/main.c4e52504.chunk.js",
+    "main.js.map": "/static/js/main.c4e52504.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.52059d29.js",
+    "runtime-main.js.map": "/static/js/runtime-main.52059d29.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.8b81cbd0.chunk.js": "/static/js/2.8b81cbd0.chunk.js",
+    "static/js/2.8b81cbd0.chunk.js.map": "/static/js/2.8b81cbd0.chunk.js.map",
+    "static/js/3.fe300dcb.chunk.js": "/static/js/3.fe300dcb.chunk.js",
+    "static/js/3.fe300dcb.chunk.js.map": "/static/js/3.fe300dcb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.d07c4ece.chunk.css.map": "/static/css/main.d07c4ece.chunk.css.map",
+    "static/js/2.8b81cbd0.chunk.js.LICENSE.txt": "/static/js/2.8b81cbd0.chunk.js.LICENSE.txt",
+    "static/media/stemby_bare_icon.6c57e3db.png": "/static/media/stemby_bare_icon.6c57e3db.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52059d29.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.8b81cbd0.chunk.js",
+    "static/css/main.d07c4ece.chunk.css",
+    "static/js/main.c4e52504.chunk.js"
+  ]
+}
